@@ -1,0 +1,30 @@
+/* NAV BAR POSITION */
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f9fc;
+    overflow: hidden;
+}
+
+/* TEXT */
+.topnav a {
+    float: left;
+    color: #ff5da0;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+}
+
+/* HOVERED BY MOUSE */
+.topnav a:hover {
+    background-color: rgb(199, 199, 199); /*background hover*/
+    color: rgb(255, 255, 255);           /*font color hover*/
+}
+
+/* TAB COLOR WHEN ON THAT PAGE */
+.topnav a.active{
+    background-color: #d3eaff;
+    color: rgb(59, 0, 0);
+}
